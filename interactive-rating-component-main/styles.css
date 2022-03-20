@@ -14,14 +14,148 @@
 }
 
 .attribution {
+  padding-top: 700px;
   font-size: 11px;
   text-align: center;
+  color: var(--mediumGrey);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-.body {
-  color: var(--vdkblue);
+body {
+  background-color: var(--vdkblue);
   font-family: "Overpass", sans-serif;
+}
+
+.icon-star {
+  background-color: rgba(60, 67, 75, 0.774);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.container {
+  background-image: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.137),
+    hsl(213, 19%, 18%),
+    hsla(222, 18%, 11%, 0.7) 364px
+  );
+  position: absolute;
+  height: 350px;
+  width: 325px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5%;
+  padding: 0.9rem;
+  padding-top: 1.8rem;
+}
+
+.ratingState.hidden {
+  display: none;
+}
+
+h1 {
+  color: white;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  padding-top: 26px;
+  padding-bottom: 10px;
+}
+
+p {
+  color: var(--lightGrey);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+ul li {
+  background-color: var(--dkblue);
+  text-align: center;
+  padding-top: 12px;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: var(--lightGrey);
+}
+
+ul li:hover {
+  cursor: pointer;
+  background-color: var(--orange);
+  color: white;
+}
+
+ul li.click {
+  background-color: var(--lightGrey);
+  color: white;
+}
+
+button {
+  width: 100%;
+  background-color: var(--orange);
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 4px;
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: var(--orange);
+}
+
+.thankyoustate.hidden {
+  display: none;
+}
+
+.thankyoustate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+.thanksImage {
+  padding: 20px;
+  width: 60%;
+}
+
+.result {
+  background-color: var(--dkblue);
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin: 0 auto;
+  color: var(--orange);
+  font-weight: 400;
+  font-family: "Overpass", sans-serif;
+}
+
+.resultText {
+  padding-top: 5px;
+}
+
+.resultH1 {
+  padding-top: 20px;
 }
