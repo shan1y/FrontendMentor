@@ -102,6 +102,14 @@ box-shadow: rgb(0 0 0 / 15%) 0px 10px 2px 0px;
     
 }
 
+.claim:hover {background-color:#3e8e41}
+
+.claim:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 .text_fine {
     font-size:10px;
     text-align: center;
