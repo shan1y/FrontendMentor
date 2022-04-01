@@ -8,7 +8,6 @@ const inputs = document.getElementsByTagName('input');
 
 function validateInputs() {
     btn.addEventListener('click', function () {
-            console.log('hi')
             
        for (let i=0; i< inputs.length; i++) {     
            
